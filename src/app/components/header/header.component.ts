@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+showSearchInput:boolean = false
 
+closeSearchInput(){
+  this.showSearchInput = false
+}
+openSearchInput (){
+  this.showSearchInput = true
+}
 }
